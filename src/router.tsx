@@ -5,6 +5,7 @@ import Home from "./pages/home/index.tsx"
 import About from "./pages/about/about.tsx"
 import Mulity from "./pages/multiTable/index.tsx"
 import Appx from "./App.tsx"
+import ReadExcel from "./pages/readExcel/index.tsx"
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="multy" element={<Mulity />} />
         <Route path="app" element={<Appx />} />
+        <Route path="readExcel" element={<ReadExcel />} />
       </Routes>
     </div>
   );
